@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "targethud",
+  "version": "${version}",
+  "name": "Target HUD",
+  "description": "Shows target's head, name and HP.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.targethud.TargetHudClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
